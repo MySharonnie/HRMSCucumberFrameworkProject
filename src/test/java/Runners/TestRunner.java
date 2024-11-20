@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/",
         glue = "Steps",
         dryRun = false,
-        tags = "@invalidCredentials",
+        tags = "@valid",
         plugin = {"pretty", "html:target/cucumber.html", "json: target/cucumber.json", "rerun: target/failed.txt"}
 )
 
